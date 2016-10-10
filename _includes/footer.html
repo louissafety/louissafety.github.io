@@ -1,46 +1,59 @@
-<footer class="site-footer">
+<footer class="bg--dark footer-4">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-3 col-sm-4">
+              <img alt="logo" class="logo" src="/assets/img/logo_large.png">
+              <p><em>FFA, Lifeboats, Liferafts and Automation </em></p>
+              <ul class="footer__navigation">
+                  <li class="vpe">
+                      <a href="#"><span>Home</span></a>
+                  </li>
+                  <li class="vpe">
+                      <a href="#"><span>Company</span></a>
+                  </li>
+                  <li class="vpe">
+                      <a href="#"><span>Services</span></a>
+                  </li>
+                  <li class="vpe">
+                      <a href="#"><span>Producrts</span></a>
+                  </li>
+                  <li class="vpe">
+                      <a href="#"><span>Contact</span></a>
+                  </li>
+              </ul>
+          </div>
+          <div class="col-md-4 col-sm-8">
 
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-            </li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
-        </ul>
+          </div>
+          <div class="col-md-4 col-md-offset-1 col-sm-12">
+              <h6>Subscribe</h6>
+              <p>Get monthly updates and free resources.</p>
+              <form action="http://mrareco.createsend.com/t/d/s/kieth/" class="form--merge form--no-labels" data-error="Please fill all fields correctly." data-success="Thanks for signing up! Please check your inbox for confirmation email." id="subForm" method="post" name="subForm">
+                  <p><label for="fieldEmail">Email Address</label><br>
+                  <input class="col-md-8 col-sm-6 validate-required validate-email" id="fieldEmail" name="cm-kieth-kieth" required="" type="email"></p>
+                  <p><button type="submit">Go</button></p>
+              </form>
+              <h6>Follow Us </h6>
+              <ul class="social-list">
+                  <li class="vpe">
+                      <a href="#"><i class="socicon-facebook"></i></a>
+                  </li>
+              </ul>
+          </div>
       </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
-      </div>
-    </div>
-
   </div>
-
+  <div class="footer__lower">
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-6 text-center-xs">
+                  <span class="type--fine-print">© Copyright
+                  <span class="update-year">2016</span> Louis Safety - All
+                  Rights Reserved</span>
+              </div>
+              <div class="col-sm-6 text-right text-center-xs">
+                  <a class="inner-link top-link" href="#top"><i class="interface-up-open-big"></i></a>
+              </div>
+          </div>
+      </div>
+  </div>
 </footer>

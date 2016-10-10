@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body>
+  <body data-reveal-selectors="section:not(.masonry):not(:first-of-type):not(.parallax)">
 
     {% include header.html %}
 
@@ -14,7 +14,13 @@
     </main>
 
     {% include footer.html %}
-    testing..
-  </body>
 
+    <script src="{{ "/assets/js/jquery-2.1.4.min.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/twitterfetcher.min.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/smooth-scroll.min.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/scrollreveal.min.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/parallax.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/scripts.js" | relative_url }}"></script>
+    
+  </body>
 </html>
