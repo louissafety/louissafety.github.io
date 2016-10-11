@@ -24,7 +24,7 @@ layout: default
 					<div class="row">
 						<div class="col-sm-12 text-center">
 							<div class="modal-instance modal-video-1">
-								<a class="btn btn--primary vpe" href="services.html">
+								<a class="btn btn--primary vpe" href="/services">
 									<span class="btn__text">
 										► &nbsp; Details
 									</span>
